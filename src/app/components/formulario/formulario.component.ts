@@ -2,6 +2,7 @@ import { CommonModule } from '@angular/common';
 import { Component, importProvidersFrom } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 
+
 @Component({
   selector: 'app-formulario',
   templateUrl: './formulario.component.html',
@@ -10,6 +11,7 @@ import { FormsModule } from '@angular/forms';
 
 export class FormularioComponent {
   LoginModel={
+    name: "",
     email: "",
     password: "",
     checkbox: "",
